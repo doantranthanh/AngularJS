@@ -50,7 +50,10 @@
     <Compile Include="Configuration\EntityBaseConfiguration.cs" />
     <Compile Include="Configuration\GenereConfiguration.cs" />
     <Compile Include="Configuration\MovieConfiguration.cs" />
+    <Compile Include="Configuration\RentalConfiguration.cs" />
+    <Compile Include="Configuration\RoleConfiguration.cs" />
     <Compile Include="Configuration\StockConfiguration.cs" />
+    <Compile Include="Configuration\UserRoleConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
