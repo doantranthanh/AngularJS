@@ -56,6 +56,7 @@
     <Compile Include="Configuration\UserConfiguration.cs" />
     <Compile Include="Configuration\UserRoleConfiguration.cs" />
     <Compile Include="HomeCinemaContext.cs" />
+    <Compile Include="Infrastructure\Disposable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
