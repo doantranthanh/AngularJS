@@ -1,0 +1,12 @@
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Services\bin\Debug\HomeCinema.Services.dll
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Services\bin\Debug\HomeCinema.Services.pdb
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Services\bin\Debug\HomeCinema.Data.dll
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Services\bin\Debug\HomeCinema.Entities.dll
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Services\bin\Debug\EntityFramework.dll
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Services\bin\Debug\MockData.dll
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Services\bin\Debug\HomeCinema.Data.pdb
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Services\bin\Debug\HomeCinema.Entities.pdb
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Services\bin\Debug\EntityFramework.xml
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Services\obj\Debug\HomeCinema.Services.csprojResolveAssemblyReference.cache
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Services\obj\Debug\HomeCinema.Services.dll
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Services\obj\Debug\HomeCinema.Services.pdb

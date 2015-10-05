@@ -13,7 +13,7 @@ namespace HomeCinema.Data.Repositories
 {
     public class EntityBaseRepository<T> : IEntityBaseRepository<T> where T : class, IEntityBase, new()
     {
-        private HomeCinemaContext dataContext;
+        private HomeCinemaContext _dataContext;
 
         #region Properties
         protected IDbFactory DbFactory 
@@ -24,7 +24,7 @@ namespace HomeCinema.Data.Repositories
 
         protected HomeCinemaContext DbContext
         {
-            get { return dataContext ?? (dataContext = DbFactory.Init()); }
+            get { return _dataContext ?? (_dataContext = DbFactory.Init()); }
         }
         public EntityBaseRepository(IDbFactory dbFactory) 
         { 
@@ -65,12 +65,12 @@ namespace HomeCinema.Data.Repositories
         { 
             return DbContext.Set<T>().Where(predicate); 
         }
-        public virtual void Add(T entity) 
-        { 
-            DbEntityEntry dbEntityEntry = DbContext.Entry<T>(entity); 
-            DbContext.Set<T>().Add(entity); 
-        } 
-        
+        public virtual void Add(T entity)
+        {
+            DbContext.Entry<T>(entity);
+            DbContext.Set<T>().Add(entity);
+        }
+
         public virtual void Edit(T entity) 
         { 
             DbEntityEntry dbEntityEntry = DbContext.Entry<T>(entity); 
