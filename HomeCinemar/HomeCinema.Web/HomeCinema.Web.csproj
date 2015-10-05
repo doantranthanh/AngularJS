@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,6 +39,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Autofac">
       <HintPath>..\packages\Autofac.3.5.0\lib\net40\Autofac.dll</HintPath>
     </Reference>
@@ -75,6 +79,9 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebGrease">
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Web.Razor">
@@ -113,10 +120,31 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Scripts\vendors\angucomplete-alt.min.js" />
+    <Content Include="Scripts\vendors\angular-base64.js" />
+    <Content Include="Scripts\vendors\angular-cookies.js" />
+    <Content Include="Scripts\vendors\angular-file-upload.js" />
+    <Content Include="Scripts\vendors\angular-route.js" />
+    <Content Include="Scripts\vendors\angular-validator.js" />
+    <Content Include="Scripts\vendors\angular.js" />
+    <Content Include="Scripts\vendors\bootstrap.js" />
+    <Content Include="Scripts\vendors\jquery.fancybox-media.js" />
+    <Content Include="Scripts\vendors\jquery.fancybox.js" />
+    <Content Include="Scripts\vendors\jquery.js" />
+    <Content Include="Scripts\vendors\jquery.raty.js" />
+    <Content Include="Scripts\vendors\loading-bar.js" />
+    <Content Include="Scripts\vendors\modernizr.js" />
+    <Content Include="Scripts\vendors\morris.js" />
+    <Content Include="Scripts\vendors\raphael.js" />
+    <Content Include="Scripts\vendors\respond.src.js" />
+    <Content Include="Scripts\vendors\toastr.js" />
+    <Content Include="Scripts\vendors\ui-bootstrap-tpls-0.13.1.js" />
+    <Content Include="Scripts\vendors\underscore.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\AutofacWebapiConfig.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Global.asax.cs">
@@ -138,6 +166,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="Scripts\spa\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HomeCinema.Data\HomeCinema.Data.csproj">
