@@ -58,3 +58,8 @@ C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Web\bin\MockData.dll
 C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Web\bin\HomeCinema.Data.pdb
 C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Web\bin\HomeCinema.Entities.pdb
 C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Web\bin\HomeCinema.Services.pdb
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Web\bin\Antlr3.Runtime.dll
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Web\bin\System.Web.Optimization.dll
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Web\bin\WebGrease.dll
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Web\bin\Antlr3.Runtime.pdb
+C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Web\bin\System.Web.Optimization.xml
