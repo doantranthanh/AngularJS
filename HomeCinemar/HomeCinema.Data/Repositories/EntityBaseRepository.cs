@@ -26,6 +26,7 @@ namespace HomeCinema.Data.Repositories
         {
             get { return _dataContext ?? (_dataContext = DbFactory.Init()); }
         }
+
         public EntityBaseRepository(IDbFactory dbFactory) 
         { 
             DbFactory = dbFactory; 
