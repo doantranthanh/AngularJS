@@ -5,6 +5,5 @@ D:\PRACTICES\HomeCinemar\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.dll
 D:\PRACTICES\HomeCinemar\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.pdb
 C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Entities\bin\Debug\HomeCinema.Entities.dll
 C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Entities\bin\Debug\HomeCinema.Entities.pdb
-C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.csprojResolveAssemblyReference.cache
 C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.dll
 C:\myprojects\AngularJS\HomeCinemar\HomeCinema.Entities\obj\Debug\HomeCinema.Entities.pdb

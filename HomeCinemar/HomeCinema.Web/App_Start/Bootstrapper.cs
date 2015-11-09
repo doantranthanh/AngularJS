@@ -1,5 +1,6 @@
 ﻿using System.Web.Http;
 using HomeCinema.Web.App_Start;
+using HomeCinema.Web.Infrastructure.Mapping;
 
 namespace HomeCinema.Web
 {
@@ -11,7 +12,7 @@ namespace HomeCinema.Web
             AutofacWebapiConfig.Initialize(GlobalConfiguration.Configuration);
 
             //Configure AutoMapper
-            //AutoMapperConfiguration.Configure();
+            AutoMapperConfiguration.Configure();
         } 
     }
 }
